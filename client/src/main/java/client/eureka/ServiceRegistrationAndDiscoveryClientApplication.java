@@ -28,6 +28,7 @@ class ServiceInstanceRestController {
 	@RequestMapping("/service-instances/{applicationName}")
 	public List<ServiceInstance> serviceInstancesByApplicationName(
 			@PathVariable String applicationName) {
+		System.out.println(applicationName);
 		return this.discoveryClient.getInstances(applicationName);
 	}
 }
