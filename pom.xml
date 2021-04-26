@@ -4,6 +4,11 @@
   <artifactId>spring-maven-module</artifactId>
   <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
+  
+  	<properties>
+		<java.version>11</java.version>
+	</properties>
+  
   <modules>
   	<module>server</module>
   	<module>client</module>
