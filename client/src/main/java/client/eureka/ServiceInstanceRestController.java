@@ -10,7 +10,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
+/**
+ * ist der Aufrufer des registrierten Service
+ * sollte in einem eigenen Service rein(maven Module) wäre sauberer und verständlicher
+ * @author ahmadobeidi
+ *
+ */
 
 @RestController
 class ServiceInstanceRestController {
