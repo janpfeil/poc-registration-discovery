@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Dieser Service Ruft den in Eureka registrierten Service, ohne ihn zu kennen.
- * Was er zum Aufruf benötigt ist nur der 'applicationName' 
+ * Was er zum Aufruf benötigt ist nur der 'applicationName'. 
  * @author ahmadobeidi
  *
  */
