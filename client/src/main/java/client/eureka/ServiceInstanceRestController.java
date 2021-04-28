@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * ist der Aufrufer des registrierten Service
- * sollte in einem eigenen Service rein(maven Module) wäre sauberer und verständlicher
+ * Dieser Service Ruft den in Eureka registrierten Service, ohne ihn zu kennen.
+ * Was er zum Aufruf benötigt ist nur der 'applicationName' 
  * @author ahmadobeidi
  *
  */
