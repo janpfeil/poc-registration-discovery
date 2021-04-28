@@ -13,5 +13,7 @@
   	<module>server</module>
   	<module>client</module>
   	<module>InquirerClient</module>
+  	<module>service1</module>
+  	<module>service2</module>
   </modules>
 </project>

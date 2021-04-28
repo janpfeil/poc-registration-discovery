@@ -19,7 +19,7 @@ class ServiceInstanceRestController {
 	@Autowired
 	private DiscoveryClient discoveryClient;
 
-	@RequestMapping("/path-services/{applicationName}")
+	@RequestMapping("/service-instances/{applicationName}")
 	public List<ServiceInstance> serviceInstancesByApplicationName(
 			@PathVariable String applicationName) {
 		System.out.println(applicationName);
