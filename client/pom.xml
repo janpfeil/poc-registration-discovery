@@ -12,9 +12,9 @@
 			<version>0.0.1-SNAPSHOT</version -->
 	</parent>
 	<groupId>com.demo</groupId>
-	<artifactId>client</artifactId>
+	<artifactId>to-registration-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>clientService</name>
+	<name>to-registration-services</name>
 	<description>client service der sich regestriern wird</description>
 
 	<properties>
