@@ -19,3 +19,8 @@ go to the folder [poc-registration-descovery](https://github.com/obeidi/poc-regi
 after the client has started, a request can now be made in Eureka via browser.
 http://localhost:8085/service-instances/service-8081 or 
 http://localhost:8085/service-instances/service-8082
+
+## Grafische Darstellung:
+
+
+
