@@ -1,5 +1,18 @@
 # poc-registration-descovery
 
+Ziele:
+In diesem Proof of Concept (POC) soll:
+
+ 1. mit Eureka ein Registry angelegt werden.
+ 2. mind. zwei Services (Spring Boot) erzeugt werden, die sich in Eureka registrieren und den gleichen Namen besitzen.
+ 3. ein Client angelegt werden, der die Services über die Registry anfragt. Und die Services an Hand der Informationen, die von der Eureka Registry geliefert werden aufruft.
+
+
+
+
+
+
+# How to run:
 to start Eureka:
 Go to the folder server and enter: mvn spring-boot:run
 / Eureka Server in Browser:
