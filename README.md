@@ -15,7 +15,7 @@ http://localhost:8761/
 2. to start the 2 service that registry in Eureka:
 go to the folder [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[service1](https://github.com/obeidi/poc-registration-descovery/tree/master/service1) or [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[service2](https://github.com/obeidi/poc-registration-descovery/tree/master/service2) and enter: **mvn spring-boot:run**
 to call it in Browser, enter: 
-http://localhost:8085/service-instances/service-8081 
+http://localhost:8085/service-instances/service-8081 or 
 http://localhost:8085/service-instances/service-8082
 
 
