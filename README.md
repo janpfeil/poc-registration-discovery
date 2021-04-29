@@ -6,18 +6,16 @@
 
 
 ## How to run:
-1. to start Eureka: 
+ 1. to start Eureka: 
 Go to the folder [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[server](https://github.com/obeidi/poc-registration-descovery/tree/master/server)/ and enter:
 **mvn spring-boot:run** 
 View Eureka in your browser.:
 http://localhost:8761/
 
-2. to start the 2 service that registry in Eureka:
+ 2. to start the two service that registry in Eureka:
 go to the folder [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[service1](https://github.com/obeidi/poc-registration-descovery/tree/master/service1) or [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[service2](https://github.com/obeidi/poc-registration-descovery/tree/master/service2) and enter: **mvn spring-boot:run**
-to call it in Browser, enter: 
+
+3. last but not least, start the Client: [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[InquirerClient](https://github.com/obeidi/poc-registration-descovery/tree/master/InquirerClient): **mvn spring-boot:run**
+after the client has started, a request can now be made in Eureka via browser.
 http://localhost:8085/service-instances/service-8081 or 
 http://localhost:8085/service-instances/service-8082
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
