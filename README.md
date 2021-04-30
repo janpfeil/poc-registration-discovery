@@ -20,7 +20,6 @@ after the client has started, a request can now be made in Eureka via browser.
 http://localhost:8085/service-instances/service-8081 or 
 http://localhost:8085/service-instances/service-8082
 
-## Grafische Darstellung:
+## Grafische Darstellung: 
 
-
-
+https://github.com/obeidi/poc-registration-descovery/blob/master/res/Bildschirmfoto%202021-04-30%20um%2001.44.15.png
