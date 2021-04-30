@@ -23,3 +23,7 @@ http://localhost:8085/service-instances/service-8082
 ## Grafische Darstellung: 
 
 https://github.com/obeidi/poc-registration-descovery/blob/master/res/Bildschirmfoto%202021-04-30%20um%2001.44.15.png
+
+## OpenApi Dokumentation
+
+http://localhost:8090/swagger-ui-custom.html
