@@ -17,8 +17,8 @@ go to the folder [poc-registration-descovery](https://github.com/obeidi/poc-regi
 
 3. last but not least, start the Client: [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[InquirerClient](https://github.com/obeidi/poc-registration-descovery/tree/master/InquirerClient): **mvn spring-boot:run**
 after the client has started, a request can now be made in Eureka via browser.
-http://localhost:8085/service-instances/service-8081 or 
-http://localhost:8085/service-instances/service-8082
+http://localhost:8090/service-instances/service-8081 or 
+http://localhost:8090/service-instances/service-8082
 
 ## Grafische Darstellung: 
 
