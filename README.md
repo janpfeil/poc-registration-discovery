@@ -17,8 +17,8 @@ go to the folder [poc-registration-descovery](https://github.com/obeidi/poc-regi
 
 3. last but not least, start the Client: [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[InquirerClient](https://github.com/obeidi/poc-registration-descovery/tree/master/InquirerClient): **mvn spring-boot:run**
 after the client has started, a request can now be made in Eureka via browser.
-http://localhost:8090/service-instances/service1-8081 or 
-http://localhost:8090/service-instances/service2-8082
+http://localhost:8090/client/service-instances/service1-8081 or 
+http://localhost:8090/client/service-instances/service2-8082
 
 ## Grafische Darstellung: 
 
@@ -26,4 +26,5 @@ https://github.com/obeidi/poc-registration-descovery/blob/master/res/Bildschirmf
 
 ## OpenApi Dokumentation
 
+Just open the follow link in your Browser to see the Swaager UI
 http://localhost:8090/swagger-ui-custom.html
