@@ -20,11 +20,11 @@ after the client has started, a request can now be made in Eureka via browser.
 http://localhost:8090/client/service-instances/service1-8081 or 
 http://localhost:8090/client/service-instances/service2-8082
 
-## Grafische Darstellung: 
+## Graphical representation of the steps: 
 
 https://github.com/obeidi/poc-registration-descovery/blob/master/res/Bildschirmfoto%202021-04-30%20um%2001.44.15.png
 
-## OpenApi Dokumentation
+## OpenApi Documentation
 
 Just open the follow link in your Browser to see the Swaager UI
 http://localhost:8090/swagger-ui-custom.html
