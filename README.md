@@ -4,6 +4,13 @@
  2. mind. zwei Services (Spring Boot) erzeugt werden, die sich in Eureka registrieren und den gleichen Namen besitzen.
  3. ein Client angelegt werden, der die Services über die Registry anfragt. Und die Services an Hand der Informationen, die von der Eureka Registry geliefert werden aufruft.
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+## In this Proof of Concept (POC):
+
+ 1. a registry is to be created with Eureka.
+ 2. At least two services (Spring Boot) can be generated that register in Eureka and have the same name.
+ 3. a client can be created that queries the services via the registry. And calls up the services based on the information provided by the Eureka registry.
 
 ## How to run:
  1. to start Eureka: 
