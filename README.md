@@ -12,7 +12,7 @@ Go to the folder [poc-registration-descovery](https://github.com/obeidi/poc-regi
 View Eureka in your browser.:
 http://localhost:8761/
 
- 2. to start the two service that registry in Eureka:
+ 2. to start the two services that registry in Eureka:
 go to the folder [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[service1](https://github.com/obeidi/poc-registration-descovery/tree/master/service1) or [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[service2](https://github.com/obeidi/poc-registration-descovery/tree/master/service2) and enter: **mvn spring-boot:run**
 
 3. last but not least, start the Client: [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[InquirerClient](https://github.com/obeidi/poc-registration-descovery/tree/master/InquirerClient): **mvn spring-boot:run**
