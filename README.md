@@ -12,7 +12,7 @@ Official documentation [Service Registration and Discovery](https://spring.io/gu
 
 ## How to run:
  1. to start Eureka: 
-Go to the folder [poc-registration-discovery](https://github.com/obeidi/poc-registration-discovery)/[server](https://github.com/obeidi/poc-registration-discovery/tree/master/server)/ and enter:
+Go to the folder [/server](server)/ and enter:
 **mvn spring-boot:run** 
 View Eureka in your browser.:
 http://localhost:8761/
@@ -20,7 +20,7 @@ http://localhost:8761/
  2. to start the two service that registry in Eureka:
 go to the folder [/service1](service1) or [/service2](service2) and enter: **mvn spring-boot:run**
 
-3. last but not least, start the Client: [poc-registration-discovery](https://github.com/obeidi/poc-registration-discovery)/[InquirerClient](https://github.com/obeidi/poc-registration-discovery/tree/master/InquirerClient): **mvn spring-boot:run**
+3. last but not least, start the Client: [/InquirerClient](InquirerClient): **mvn spring-boot:run**
 after the client has started, a request can now be made in Eureka via browser.
 http://localhost:8090/client/service-instances/service1-8081 or 
 http://localhost:8090/client/service-instances/service2-8082
