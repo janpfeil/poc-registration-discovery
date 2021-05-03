@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-//@RequestMapping("/client")
 class ServiceInstanceRestController {
 
 	@Autowired
