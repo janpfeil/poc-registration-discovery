@@ -20,7 +20,7 @@ http://localhost:8761/
  2. to start the two service that registry in Eureka:
 go to the folder [/service1](service1) or [/service2](service2) and enter: **mvn spring-boot:run**
 
-3. last but not least, start the Client: [/InquirerClient](InquirerClient): **mvn spring-boot:run**
+3. last but not least, start the Client [/InquirerClient](InquirerClient): **mvn spring-boot:run**
 after the client has started, a request can now be made in Eureka via browser.
 http://localhost:8090/client/service-instances/service1-8081 or 
 http://localhost:8090/client/service-instances/service2-8082
