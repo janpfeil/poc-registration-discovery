@@ -1,37 +1,38 @@
+# Spring Cloud Services
+Official documentation [Service Registration and Discovery](https://spring.io/guides/gs/service-registration-and-discovery/)
 ## In diesem Proof of Concept (POC) soll:
 
  1. mit Eureka ein Registry angelegt werden.
  2. mind. zwei Services (Spring Boot) erzeugt werden, die sich in Eureka registrieren und den gleichen Namen besitzen.
  3. ein Client angelegt werden, der die Services über die Registry anfragt. Und die Services an Hand der Informationen, die von der Eureka Registry geliefert werden aufruft.
 
---------------------------------------------------------------------------------------------------------------------------------------
-
-## In this Proof of Concept (POC):
-
- 1. a registry is to be created with Eureka.
- 2. At least two services (Spring Boot) can be generated that register in Eureka and have the same name.
- 3. a client can be created that queries the services via the registry. And calls up the services based on the information provided by the Eureka registry.
+### Artikel zum Thema Service Registry
+- [Spring Boot + Netflix Eureka For Service Discovery In Microservices](https://m.heise.de/developer/artikel/Eureka-Microservice-Registry-mit-Spring-Cloud-2848238.html?seite=all)
+- [Eureka – Microservice-Registry mit Spring Cloud](https://medium.com/techno101/spring-boot-netflix-eureka-for-service-discovery-in-microservices-cc81cca96144)
 
 ## How to run:
  1. to start Eureka: 
-Go to the folder [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[server](https://github.com/obeidi/poc-registration-descovery/tree/master/server)/ and enter:
+Go to the folder [poc-registration-discovery](https://github.com/obeidi/poc-registration-discovery)/[server](https://github.com/obeidi/poc-registration-discovery/tree/master/server)/ and enter:
 **mvn spring-boot:run** 
 View Eureka in your browser.:
 http://localhost:8761/
 
- 2. to start the two services that registry in Eureka:
-go to the folder [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[service1](https://github.com/obeidi/poc-registration-descovery/tree/master/service1) or [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[service2](https://github.com/obeidi/poc-registration-descovery/tree/master/service2) and enter: **mvn spring-boot:run**
+ 2. to start the two service that registry in Eureka:
+go to the folder [/service1](service1) or [/service2](service2) and enter: **mvn spring-boot:run**
 
-3. last but not least, start the Client: [poc-registration-descovery](https://github.com/obeidi/poc-registration-descovery)/[InquirerClient](https://github.com/obeidi/poc-registration-descovery/tree/master/InquirerClient): **mvn spring-boot:run**
+3. last but not least, start the Client: [poc-registration-discovery](https://github.com/obeidi/poc-registration-discovery)/[InquirerClient](https://github.com/obeidi/poc-registration-discovery/tree/master/InquirerClient): **mvn spring-boot:run**
 after the client has started, a request can now be made in Eureka via browser.
 http://localhost:8090/client/service-instances/service1-8081 or 
 http://localhost:8090/client/service-instances/service2-8082
 
-## Graphical representation of the steps: 
 
-https://github.com/obeidi/poc-registration-descovery/blob/master/res/Bildschirmfoto%202021-04-30%20um%2001.44.15.png
+![Eureka System Status](res/eureka-system-status.png "Eureka System Status")
 
-## OpenApi Documentation
+## Grafische Darstellung: 
 
-Just open the follow link in your Browser to see the Swaager UI
-http://localhost:8090/swagger-ui-custom.html
+![Komponenten-Diagramm](res/Bildschirmfoto%202021-04-30%20um%2001.44.15.png "Komponenten-Diagramm")
+
+## OpenApi Dokumentation
+- OpenAPI 3 & Spring Boot reference docs https://springdoc.org
+- Swagger UI http://localhost:8090/swagger-ui.html
+- Open API http://localhost:8090/v3/api-docs
